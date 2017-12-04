@@ -11,7 +11,8 @@ public class CoinObject : BaseObject {
 		info.gold--;
 	}
 
-	public override void StartPossesion() {
+	public override void StartPossesion(GameObject caller) {
+		caller.GetComponent<AudioSource>().Play();
 		info.gold++;
 	}
 

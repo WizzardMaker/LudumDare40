@@ -13,8 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceAmount: 56
   minimumDistance: 35
-  distance: 229.40643
-  spawnOffset: {x: -10.61, y: 25, z: 15}
+  distance: 629.3197
+  spawnOffset: {x: -37.22, y: 25, z: 15}
   spawnWidth: 0
   spawnHeight: 0
   objects:

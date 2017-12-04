@@ -25,6 +25,6 @@ public class Collectable : MonoBehaviour {
 	}
 
 	public void StartPossesion() {
-		objectType.StartPossesion();
+		objectType.StartPossesion(gameObject);
 	}
 }

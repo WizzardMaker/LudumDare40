@@ -11,7 +11,7 @@ public class RockObject : BaseObject {
 
 	}
 
-	public override void StartPossesion() {
+	public override void StartPossesion(GameObject caller) {
 
 	}
 

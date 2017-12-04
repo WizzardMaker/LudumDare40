@@ -9,6 +9,6 @@ public abstract class BaseObject : ScriptableObject {
 	public float weight=1;
 
 	public abstract void WhileInPossesion();
-	public abstract void StartPossesion();
+	public abstract void StartPossesion(GameObject caller);
 	public abstract void EndPossesion();
 }

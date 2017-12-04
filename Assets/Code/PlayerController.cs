@@ -32,7 +32,6 @@ public class PlayerController : MonoBehaviour {
 
 		collector.AddRange(GetComponentsInChildren<Collector>());
 
-		startTime = Time.time;
 	}
 	
 	// Update is called once per frame
@@ -74,6 +73,11 @@ public class PlayerController : MonoBehaviour {
 			info.speed = rig.velocity.magnitude;
 		}else{
 			hasStarted = Input.GetButton("Start");
+
+			if (hasStarted) {
+				GetComponent<AudioSource>().Play();
+				startTime = Time.time;
+			}
 		}
 	}
 

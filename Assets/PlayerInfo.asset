@@ -11,6 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45c9e3dbd1ba5a244be6866ff721c678, type: 3}
   m_Name: PlayerInfo
   m_EditorClassIdentifier: 
-  gold: 0
-  score: 0
-  speed: 0
+  gold: 3
+  score: 15376
+  height: 616.9053
+  speed: 11.613046
+  killer: Plane
+  fuel: 0
+  maxFuel: 0

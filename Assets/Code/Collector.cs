@@ -5,7 +5,7 @@ using UnityEngine;
 public class Collector : MonoBehaviour {
 
 	public float weight;
-	List<Collectable> inside = new List<Collectable>();
+	public List<Collectable> inside = new List<Collectable>();
 	public string pushButton;
 
 	public void PushOut(){
@@ -23,7 +23,6 @@ public class Collector : MonoBehaviour {
 		Collectable c = other.GetComponentInParent<Collectable>();
 		if (c != null){
 			c.StartPossesion();
-
 			inside.Add(c);
 
 			weight += c.objectType.weight;
