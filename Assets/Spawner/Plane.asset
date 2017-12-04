@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f100cf0c59e6c14d90ed3590621fc4f, type: 3}
+  m_Name: Plane
+  m_EditorClassIdentifier: 
+  distanceAmount: 56
+  minimumDistance: 35
+  distance: 229.40643
+  spawnOffset: {x: -10.61, y: 25, z: 15}
+  spawnWidth: 0
+  spawnHeight: 0
+  objects:
+  - {fileID: 1145667948422784, guid: aadeb0e09c614c347a17709e89b1104c, type: 2}
